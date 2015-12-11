@@ -4,7 +4,10 @@
 [![Build Status](https://travis-ci.org/LingyuCoder/get-gulp-inst.png)](https://travis-ci.org/LingyuCoder/get-gulp-inst)
 [![Dependency Status](https://david-dm.org/LingyuCoder/get-gulp-inst.svg)](https://david-dm.org/LingyuCoder/get-gulp-inst)
 [![devDependency Status](https://david-dm.org/LingyuCoder/get-gulp-inst/dev-status.svg)](https://david-dm.org/LingyuCoder/get-gulp-inst#info=devDependencies)
+[![NPM version](http://img.shields.io/npm/v/get-gulp-inst.svg?style=flat-square)](http://npmjs.org/package/get-gulp-inst)
+[![node](https://img.shields.io/badge/node.js-%3E=_4.0-green.svg?style=flat-square)](http://nodejs.org/download/)
 [![License](http://img.shields.io/npm/l/get-gulp-inst.svg?style=flat-square)](LICENSE)
+[![npm download](https://img.shields.io/npm/dm/get-gulp-inst.svg?style=flat-square)](https://npmjs.org/package/get-gulp-inst)
 
 Get gulp instance from gulpfile with Promise api
 
