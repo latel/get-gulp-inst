@@ -15,7 +15,7 @@ function removeFile(source) {
 
 module.exports = co.wrap(function*(source) {
   if (cache[source]) return cache[source];
-  let tempFile = path.join(process.cwd(), `gulpfile-${Date.now()}.js`);
+  let tempFile = path.join(path.dirname(source), `gulpfile-${Date.now()}.js`);
   try {
     fs.writeFileSync(tempFile, `
       ${fs.readFileSync(source, 'utf-8')};
